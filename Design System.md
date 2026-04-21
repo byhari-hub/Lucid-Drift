@@ -1,243 +1,243 @@
 # LUCID DRIFT  
-## Design System — Phase 2  
 ### Memory as Interface, Not Content
 
 ---
 
-## SYSTEM NOTE
+## Overview
 
-This document translates the conceptual framework of *LUCID DRIFT* into a design system.
+*LUCID DRIFT* is an experimental archive exploring memory as a fragmented, unstable, and continuously recomposed system.
 
-It defines:
-- visual language  
-- typography and grid  
-- layout system  
-- interaction behavior  
+This repository defines the **design system layer** of the project — translating conceptual ideas into visual, spatial, and interaction logic.
 
-The system does not aim for clarity or usability in conventional terms.  
-It operates as an extension of the project’s core thesis:
+This is not a traditional UI system.
 
-> Memory is fragmented, unstable, and continuously recomposed.
+It is a **behavioral framework** for building an interface that performs memory rather than presenting information.
 
 ---
 
-## 1 · VISUAL LANGUAGE  
+## System Status
+
+Current phase:  
+→ Design System Definition (Pre-Implementation)
+
+Planned integration:  
+→ Claude / generative systems  
+→ Real-time interaction environments (e.g. TouchDesigner)  
+→ Web-based interface layer
+
+---
+
+## Core Principles
+
+- Memory is **not retrieved**, it is **reconstructed**
+- The system must resist **clarity, linearity, and permanence**
+- Every interaction produces **variation, not repetition**
+- The interface behaves as an **unstable archive**
+
+---
+
+## 1. Visual Language  
 ### Fragmented Presence
 
-The visual system rejects resolution. Nothing appears complete or stable.
+The visual system rejects completeness.
 
-### Characteristics
+**Characteristics**
+- High-contrast monochrome (black / off-white / grey)
+- Overexposed / glowing imagery
+- Noise, grain, compression artifacts
+- Hybrid sources:
+  - archival material
+  - field recordings
+  - AI-generated visuals
 
-- High-contrast monochrome palette (black, off-white, grey)
-- Overexposed or glowing imagery (loss through intensity)
-- Grain, noise, compression artifacts (decay as texture)
-- Hybrid imagery:
-  - archival (cassette, handwritten scores)
-  - field recordings (subjective, imperfect)
-  - AI-generated hallucinations
+**Behavior**
+- Partial image loading
+- Inconsistent cropping
+- Layered, drifting compositions
+- No fixed visual state
 
-### Behavior
-
-- Images load partially or with delay
-- Cropping appears inconsistent or incomplete
-- Visual layers overlap and drift subtly
-- No fixed or “perfect” composition is maintained
-
-### Conceptual Mapping
-
-- Orphaned archive → incomplete frames
-- Memory decay → noise and blur
-- Recomposition → layered imagery
-- Absence → large voids and negative space
+**Concept Mapping**
+- Orphaned archive → incomplete frames  
+- Memory decay → noise / blur  
+- Recomposition → layered visuals  
+- Absence → negative space  
 
 ---
 
-## 2 · TYPOGRAPHY  
+## 2. Typography  
 ### Language as Fragment
 
-Text is treated as residue rather than explanation.
+Text functions as residue, not explanation.
 
-### System
+**System**
+- Grotesk → structural voice  
+- Serif → memory layer  
+- Mono → metadata  
 
-- Primary: neutral grotesk (structural voice)
-- Secondary: serif (memory, poetic tone)
-- Optional: monospaced (metadata, indexing)
+**Behavior**
+- Fragmented sentences  
+- Repetition / echo  
+- Partial visibility  
+- Highlighted fragments  
 
-### Behavior
-
-- Sentences are fragmented or incomplete
-- Words may repeat, echo, or appear duplicated
-- Text may be partially hidden or masked
-- Highlighting used to simulate memory emphasis
-
-### Hierarchy
-
-- Large text: emotional anchors
-- Small text: metadata, annotations
-- No continuous long-form reading blocks
-
-### Conceptual Mapping
-
-- Fragmentation → broken syntax
-- Echo → repetition
-- Loss → truncation
-- Drift → shifting placement
+**Hierarchy**
+- Large → emotional anchors  
+- Small → annotations / metadata  
+- No long continuous paragraphs  
 
 ---
 
-## 3 · GRID SYSTEM  
+## 3. Grid System  
 ### Unstable Structure
 
-Structure exists but is not maintained.
+Structure exists, but is continuously disrupted.
 
-### Base
-
+**Base**
 - 12-column grid (non-visible)
-- Modular spacing system
+- Modular spacing
 
-### Disruption
+**Disruption**
+- Misalignment
+- Floating elements
+- Overlapping modules
+- Boundary overflow
 
-- Misalignment across columns
-- Floating modules
-- Overlapping content blocks
-- Elements extend beyond boundaries
-
-### Spatial Logic
-
-- Sections bleed into one another
-- No clear separation between content zones
-- Navigation is non-linear
-
-### Conceptual Mapping
-
-- Archive system → underlying grid
-- Instability → broken alignment
-- Drift → floating elements
-- Non-linearity → absence of fixed flow
+**Logic**
+- Sections bleed into each other  
+- No strict navigation flow  
 
 ---
 
-## 4 · LAYOUT SYSTEM  
+## 4. Layout System  
 ### Memory Field
 
-The interface is not a page but a field of fragments.
+The interface operates as a **distributed field**, not a page.
 
-### Homepage
+**Homepage**
+- Fragment landscape
+- Nodes, image shards, text fragments
 
-- Functions as a distributed memory landscape
-- Elements include:
-  - image fragments
-  - textual shards
-  - diagram traces
-  - spatial nodes
-
-### Project Structure
-
-- No discrete pages
+**Project Structure**
+- No fixed pages
 - Content appears as:
   - overlays
   - pop-ups
   - layered fragments
 
-### Content Reveal
-
-- Progressive disclosure only
-- Content unfolds through interaction
-- No full overview is provided at once
-
-### Structural Mapping
-
-- Hook → singular visual + minimal text
-- Depth → archival textures + conceptual anchors
-- System → diagrams dominate
-- Reflection → emptiness and slow reading
+**Content Reveal**
+- Progressive only
+- No full overview
+- Exploration-based
 
 ---
 
-## 5 · INTERACTION BEHAVIOR  
+## 5. Interaction Behavior  
 ### Editing Memory
 
-Interaction is not navigation. It is transformation.
+Interaction transforms the system.
 
-### Core Logic
+**Core Logic**
+Each input alters the output.  
+No state is repeated exactly.
 
-Each input alters the system state.  
-No interaction produces the same output twice.
+**Behaviors**
+- Hover → reveal / mutate fragments  
+- Click → open layered panels  
+- Scroll → distort spatial/temporal structure  
 
-### Behaviors
+**Temporal System**
+- Appear → disappear → reappear differently  
+- No persistent state  
 
-- Hover:
-  - reveals hidden fragments
-  - triggers subtle visual shifts
-- Click:
-  - opens layered panels
-- Scroll:
-  - distorts layout
-  - shifts temporal perception
-
-### Temporal Behavior
-
-- Elements appear, disappear, and reappear differently
-- No persistent visual state is guaranteed
-
-### Motion Language
-
-- Slow, ambient transitions
-- Slight unpredictability
-- Avoid sharp or mechanical animation
-
-### Conceptual Mapping
-
-- Granular synthesis → fragment triggering
-- Recomposition → dynamic outputs
-- Drift → continuous motion
-- Non-ownership → no fixed state
+**Motion**
+- Slow  
+- Ambient  
+- Slightly unpredictable  
 
 ---
 
-## 6 · POP-UP SYSTEM  
+## 6. Pop-up System  
 ### Memory as Layer
 
 Primary interface mechanism.
 
-### Behavior
+**Behavior**
+- Each interaction opens a fragment panel  
+- Panels overlap and stack  
+- Closure is incomplete  
 
-- Each interaction opens a fragment panel
-- Panels:
-  - overlap
-  - stack
-  - partially obscure one another
-- Closure is incomplete; traces remain
-
-### Structure
-
-1. Visual (dominant)
-2. Text fragment (minimal)
-3. Optional deeper layer (hidden)
+**Structure**
+1. Visual  
+2. Text fragment  
+3. Optional deeper layer  
 
 ---
 
-## 7 · SYSTEM VALIDATION
+## Integration Notes (Claude / Generative Systems)
 
-The system is aligned if:
+This system is designed to integrate with generative tools.
 
-- It feels slightly disorienting
-- It resists immediate understanding
-- It rewards prolonged interaction
+Potential roles:
+- Text recomposition (LLM)
+- Memory fragment generation
+- Narrative variation
+- Dynamic annotation
+
+Claude (or similar systems) should not:
+- summarize clearly
+- resolve ambiguity
+
+Instead:
+→ maintain fragmentation  
+→ introduce variation  
+→ preserve instability  
+
+---
+
+## Validation Criteria
+
+The system is successful if:
+
+- It feels disorienting but compelling  
+- It reveals itself over time  
+- It resists immediate comprehension  
 
 The system fails if:
 
-- It becomes clean or predictable
-- It prioritizes clarity over experience
-- It behaves like a standard portfolio interface
+- It becomes clean or predictable  
+- It behaves like a standard portfolio  
+- It prioritizes clarity over experience  
 
 ---
 
-## FINAL STATEMENT
+## Final Statement
 
-The design system does not represent memory.
+This is not an interface for memory.
 
-It performs it.
+It is a system where memory performs itself.
 
 > An archive that no longer knows how to organize itself,  
 > but continues to remember.
+
+---
+
+## Future Directions
+
+- Multi-user memory layering  
+- Real-time generative variation  
+- Decentralized archive structures  
+- Expanded audiovisual system  
+
+---
+
+## License / Usage
+
+Conceptual and experimental use only.  
+Not intended for standard UI/UX replication.
+
+---
+
+## Author
+
+Hari Tris  
+Multidisciplinary Artist  
