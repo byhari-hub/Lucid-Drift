@@ -1,0 +1,1 @@
+mkdir -p fragments/{01_du-doi-nhu-may,02_chieu-xua,03_long-ta-da-gio,04_thanh-khuc-mi-doan,05_nay-con-yeu-oi,06_mai-nhu-ban-dau,07_da-vang-thu-xua,08_tren-noi-muon-mang,09_tram-nam-khoi-song,10_chieu-doi-thong,11_tha-xua,12_ben-bo-vuc-sau}
